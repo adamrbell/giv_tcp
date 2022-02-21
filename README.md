@@ -85,7 +85,7 @@ https://hub.docker.com/repository/docker/britkat/giv_tcp-ma
 | ENV Name                | Example       |  Description                      |
 | ----------------------- | ------------- |  -------------------------------- |
 | INVERTOR_IP |192.168.10.1 | Docker container can auto detect Invertors if running on your host network. If this fails then add the IP manually to this ENV |
-| NUMBATTERIES | 1 | Number of battery units connected to the invertor |
+| NUM_BATTERIES | 1 | Number of battery units connected to the invertor |
 | MQTT_OUTPUT | True | Optional if set to True then MQTT_ADDRESS is required |
 | MQTT_ADDRESS | 127.0.0.1 | Optional (but required if OUTPUT is set to MQTT) |
 | MQTT_USERNAME | bob | Optional |
